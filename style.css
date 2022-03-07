@@ -6,13 +6,14 @@ body {
     width: 100vw;
     background-repeat: no-repeat;
     font-family:'Courier Prime', monospace;
+    font-weight: bolder;
     
    
 }
 form {
      background-color: #fa5959;
      padding: 30px;
-     margin: 0px;
+     margin: 10px;
      font-size: 16px;
      width: 50%;
      height: 50%;
@@ -46,21 +47,16 @@ form {
 align-content: center;
 justify-content: center;
 }
-#faith {
+
+#faith { 
     justify-content: center;
     align-content: center;
-    border-style: solid;
     display: flex;
-    width: 10vw;
-    height: 5vh;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 1px;
-    margin-left: 250px;
-    border-radius: 10px;
+    
 
 }
 button {
+    color: white;
     border-style: solid;
     border-radius: 10px;
     border-color: white;
@@ -82,8 +78,9 @@ button {
     display: flex;
 }
 
-.mes {
+.error {
     width: 350px;
     height: 30px;
     background: white;
+    color: red;
 }

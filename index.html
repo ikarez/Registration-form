@@ -9,36 +9,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<script defer src="./script.js"></script>
 </head>
-
 <body>
     <div id="container">
-        <form>
-                <div>
-                    <label for="yname"> Your name<span class="asteric">*</span> </label>
-                <input class="foregroup" type="text" id="yname" name id="Name" placeholder="">
+        <form class="form" id="form">
+                <div class="form-control">
+                <label for="yourname">Your Name<span class="asteric"> *</span></label>    
+                <input class="foregroup" type="text" name id="name"/>
                 </div>
             <div>
-                <label for="email">Email<span class="asteric">*</span></label>
-                <input class="foregroup" type="name" id="email" name id="Email" placeholder="">
+                <label for="email">Email<span class="asteric"> *</span></label>
+                <input class="foregroup" type="name" id="email" name id="email">
             </div>
             <div>
-                <label for="activation token">Activation token<span class="asteric">*</span></label>
-                <input class=foregroup type="name" id="activation token" name id="Activation token" placeholder=""><ul></ul>
+                <label for="activation token">Activation token<span class="asteric"> *</span></label>
+                <input class=foregroup type="name" id="activation token" name id="Activation token">
             </div>
         
             <div id="love">
-                You agree to the <a href=" privacy policy" id="privacy"> privacy policy</a><span class="asteric">*</span> <input type="checkbox">
+                You agree to the<a href=" privacy policy" id="privacy">  privacy policy</a><span class="asteric">*</span> <input type="checkbox" checked>
            </div>
            <div id="beauty">
-               <p class="mes"></p>
+               <p class="error"></p> 
            </div>
-           <div>
-               <div id="faith">
-               <botton type="button">Submit</botton>
+           <div id="faith">
+           <button type="submit">Submit</button>
            </div>
-
-        </form>
-    </div>
+           
+         </form>
+    
 </body>
 </html>
